@@ -1,4 +1,4 @@
-FROM ruby:2.3.1-slim
+FROM ruby:2.7.4-slim
 RUN apt-get update -qq && apt-get install -y build-essential
 
 ENV APP_ROOT /var/www/docker-sinatra
